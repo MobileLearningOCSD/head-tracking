@@ -1,13 +1,12 @@
-# iPad Head Tracking
+# Native iPad Head Tracking
 
 
-### Must create a switch to start everything
+### Create a Switch
+#### For Testing
 Tapping anywhere on the screen will select the currently highlighted item
 ~~~
 Tap Settings > Accessibility > Switch Control > Switches > Add New Switch > Screen > Full Screen > Select Item
 ~~~
-
-
 
 ### Enable Head Tracking
 ~~~
@@ -19,7 +18,6 @@ Settings > Accessibility > Switch Control > Head Tracking > On
 > Tap Raise Eyebrows > System = Tap
 > ~~~
 > *obviously pick what is best ( raise eyebrows was selected for demo purposes )*
-
 
 
 ### Start Default Switch Control
@@ -52,7 +50,11 @@ Triple click home button to Turn ON head tracking
 ~~~
 
 ---
-**TESTED**
-- [x] 8th gen iPad with 15.7
+**TESTED: SUCCESS**
+- [x] 8th gen iPad with iPadOS 15.7
+- [x] 9th gen iPad with iPadOS 15.3
+
+**TESTED: FAILED**
+- [x] 6th gen iPad with unknown iPadOS
 
 ---
